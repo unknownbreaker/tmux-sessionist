@@ -26,6 +26,7 @@ source "$CURRENT_DIR/scripts/helpers.sh"
 set_goto_session_bindings() {
 	local key_bindings=$(get_tmux_option "$tmux_option_goto" "$default_key_bindings_goto")
 	local key
+  echo $key_bindings
 	for key in $key_bindings; do
 		tmux bind "$key" run "$CURRENT_DIR/scripts/goto_session.sh"
 	done
