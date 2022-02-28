@@ -2,10 +2,10 @@
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-default_key_bindings_goto="g"
+default_key_bindings_goto=""
 tmux_option_goto="@sessionist-goto"
 
-default_key_bindings_alternate="S"
+default_key_bindings_alternate=""
 tmux_option_alternate="@sessionist-alternate"
 
 default_key_bindings_new="C"
